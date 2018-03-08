@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hyperion visualiser!</title>
+  </head>
+  <body>
+    <input type="file" id="fileInput"/>
+    <input type="button" id="loadFile" value="Load File (>'.')>" />
+    <br>
+    <p id="output"></p>
+    <canvas id="canvas" width="400" height="400" style="border:1px solid #000000;"></canvas>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
